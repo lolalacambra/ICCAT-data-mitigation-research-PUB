@@ -221,23 +221,41 @@ if (any(task1_selected$Catch_type %in% c("DL", "LD"))) {
 }
 
 # Diagnostic outputs ------------------------------------------------------
-audit_summary <- tribble(
-  ~Metric, ~Value,
-  "Raw rows", nrow(t1_raw),
-  "Raw columns", ncol(t1_raw),
-  "Selected rows", nrow(task1_selected),
-  "Selected positive rows", sum(task1_selected$Positive_record),
-  "Selected zero rows", sum(task1_selected$Zero_record),
-  "Selected catch tonnes", sum(task1_selected$Catch_t),
-  "Resolution 19-01 species", nrow(resolution_species),
-  "Resolution species with Task I records", sum(taxon_presence$Records_present),
-  "Resolution species without Task I records", sum(!taxon_presence$Records_present),
-  "Selected flags", n_distinct(task1_selected$Flag),
-  "Selected reporting parties", n_distinct(task1_selected$Reporting_party),
-  "First year", min(task1_selected$Year),
-  "Last year", max(task1_selected$Year),
-  "Live discards included", FALSE,
-  "Raw SHA-256", actual_sha256
+audit_summary <- tibble(
+  Metric = c(
+    "Raw rows",
+    "Raw columns",
+    "Selected rows",
+    "Selected positive rows",
+    "Selected zero rows",
+    "Selected catch tonnes",
+    "Resolution 19-01 species",
+    "Resolution species with Task I records",
+    "Resolution species without Task I records",
+    "Selected flags",
+    "Selected reporting parties",
+    "First year",
+    "Last year",
+    "Live discards included",
+    "Raw SHA-256"
+  ),
+  Value = as.character(c(
+    nrow(t1_raw),
+    ncol(t1_raw),
+    nrow(task1_selected),
+    sum(task1_selected$Positive_record),
+    sum(task1_selected$Zero_record),
+    sum(task1_selected$Catch_t),
+    nrow(resolution_species),
+    sum(taxon_presence$Records_present),
+    sum(!taxon_presence$Records_present),
+    n_distinct(task1_selected$Flag),
+    n_distinct(task1_selected$Reporting_party),
+    min(task1_selected$Year),
+    max(task1_selected$Year),
+    FALSE,
+    actual_sha256
+  ))
 )
 
 catch_type_summary <- task1_selected %>%
