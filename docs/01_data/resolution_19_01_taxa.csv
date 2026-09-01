@@ -1,0 +1,31 @@
+resolution_order,family,resolution_name,task1_scie_name,task1_code,record_scope,reporting_level,res19_01_species,include_taxonomic_analysis,task1_records_present,notes
+1,Rhincodontidae,Rhincodon typus,Rhincodon typus,RHN,species,Species,TRUE,TRUE,TRUE,
+2,Pseudocarchariidae,Pseudocarcharias kamoharai,Pseudocarcharias kamoharai,PSK,species,Species,TRUE,TRUE,TRUE,
+3,Lamnidae,Carcharodon carcharias,Carcharodon carcharias,WSH,species,Species,TRUE,TRUE,TRUE,
+4,Lamnidae,Isurus oxyrinchus,Isurus oxyrinchus,SMA,species,Species,TRUE,TRUE,TRUE,
+5,Lamnidae,Isurus paucus,Isurus paucus,LMA,species,Species,TRUE,TRUE,TRUE,
+6,Lamnidae,Lamna nasus,Lamna nasus,POR,species,Species,TRUE,TRUE,TRUE,
+7,Cetorhinidae,Cetorhinus maximus,Cetorhinus maximus,BSK,species,Species,TRUE,TRUE,TRUE,
+8,Alopiidae,Alopias superciliosus,Alopias superciliosus,BTH,species,Species,TRUE,TRUE,TRUE,
+9,Alopiidae,Alopias vulpinus,Alopias vulpinus,ALV,species,Species,TRUE,TRUE,TRUE,
+10,Carcharhinidae,Carcharhinus falciformis,Carcharhinus falciformis,FAL,species,Species,TRUE,TRUE,TRUE,
+11,Carcharhinidae,Carcharhinus galapagensis,Carcharhinus galapagensis,CCG,species,Species,TRUE,TRUE,TRUE,
+12,Carcharhinidae,Carcharhinus longimanus,Carcharhinus longimanus,OCS,species,Species,TRUE,TRUE,TRUE,
+13,Carcharhinidae,Prionace glauca,Prionace glauca,BSH,species,Species,TRUE,TRUE,TRUE,
+14,Sphyrnidae,Sphyrna lewini,Sphyrna lewini,SPL,species,Species,TRUE,TRUE,TRUE,
+15,Sphyrnidae,Sphyrna mokarran,Sphyrna mokarran,SPK,species,Species,TRUE,TRUE,TRUE,
+16,Sphyrnidae,Sphyrna zygaena,Sphyrna zygaena,SPZ,species,Species,TRUE,TRUE,TRUE,
+17,Dasyatidae,Pteroplatytrygon violacea,Pteroplatytrygon violacea,PLS,species,Species,TRUE,TRUE,TRUE,
+18,Mobulidae,Manta alfredi,Manta alfredi,,species,Species,TRUE,TRUE,FALSE,No records under this scientific name in the supplied Task I file
+19,Mobulidae,Manta birostris,Manta birostris,RMB,species,Species,TRUE,TRUE,TRUE,
+20,Mobulidae,Mobula hypostoma,Mobula hypostoma,,species,Species,TRUE,TRUE,FALSE,No records under this scientific name in the supplied Task I file
+21,Mobulidae,Mobula japonica,Mobula japonica,,species,Species,TRUE,TRUE,FALSE,No records under this scientific name in the supplied Task I file
+22,Mobulidae,Mobula mobular,Mobula mobular,RMM,species,Species,TRUE,TRUE,TRUE,
+23,Mobulidae,Mobula tarapacana,Mobula tarapacana,RMT,species,Species,TRUE,TRUE,TRUE,
+24,Mobulidae,Mobula thurstoni,Mobula thurstoni,RMO,species,Species,TRUE,TRUE,TRUE,
+101,Carcharhinidae,,Carcharhinidae,RSK,aggregate,Family aggregate,FALSE,TRUE,TRUE,Aggregate may include species outside Resolution 19-01
+102,Sphyrnidae,,Sphyrna spp,SPN,aggregate,Genus aggregate,FALSE,TRUE,TRUE,Aggregate may include species outside Resolution 19-01
+103,Sphyrnidae,,Sphyrnidae,SPY,aggregate,Family aggregate,FALSE,TRUE,TRUE,Aggregate may include species outside Resolution 19-01
+104,Lamnidae,,Lamnidae,MSK,aggregate,Family aggregate,FALSE,TRUE,TRUE,Aggregate may include species outside Resolution 19-01
+105,Alopiidae,,Alopias spp,THR,aggregate,Genus aggregate,FALSE,TRUE,TRUE,Aggregate may include species outside Resolution 19-01
+106,Mobulidae,,Mobulidae,MAN,aggregate,Family aggregate,FALSE,TRUE,TRUE,Aggregate may include species outside Resolution 19-01
