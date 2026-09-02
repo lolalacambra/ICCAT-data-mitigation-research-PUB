@@ -1,0 +1,2 @@
+# Keep generated CSV files consistent across operating systems
+*.csv text eol=lf
