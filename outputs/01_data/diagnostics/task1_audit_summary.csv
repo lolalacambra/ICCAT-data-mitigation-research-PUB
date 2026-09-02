@@ -1,0 +1,16 @@
+Metric,Value
+Raw rows,104805
+Raw columns,23
+Selected rows,14676
+Selected positive rows,10471
+Selected zero rows,4205
+Selected catch tonnes,1953971.72224799
+Resolution 19-01 species,24
+Resolution species with Task I records,21
+Resolution species without Task I records,3
+Selected flags,73
+Selected reporting parties,47
+First year,1950
+Last year,2023
+Live discards included,FALSE
+Raw SHA-256,c93da30f6f57e864208ace5e25a75b5e658ce2aadfc12fe7880897522410674f

@@ -1,0 +1,25 @@
+resolution_order,Family,Resolution_name,Task1_name,Task1_code,Number_records,Positive_records,Catch_t,First_year,Last_year,Number_flags,Records_present
+1,Rhincodontidae,Rhincodon typus,Rhincodon typus,RHN,32,3,0.394,2010,2023,6,TRUE
+2,Pseudocarchariidae,Pseudocarcharias kamoharai,Pseudocarcharias kamoharai,PSK,41,8,7.393,2007,2023,4,TRUE
+3,Lamnidae,Carcharodon carcharias,Carcharodon carcharias,WSH,193,111,411.636,1983,2023,10,TRUE
+4,Lamnidae,Isurus oxyrinchus,Isurus oxyrinchus,SMA,2823,2354,229397.46426,1950,2023,46,TRUE
+5,Lamnidae,Isurus paucus,Isurus paucus,LMA,314,238,2006.64861,1982,2023,12,TRUE
+6,Lamnidae,Lamna nasus,Lamna nasus,POR,2320,1758,125115.313478,1950,2023,51,TRUE
+7,Cetorhinidae,Cetorhinus maximus,Cetorhinus maximus,BSK,69,51,973.464577,1998,2023,7,TRUE
+8,Alopiidae,Alopias superciliosus,Alopias superciliosus,BTH,553,244,2094.664128,1993,2023,24,TRUE
+9,Alopiidae,Alopias vulpinus,Alopias vulpinus,ALV,737,427,3073.146574,1987,2023,25,TRUE
+10,Carcharhinidae,Carcharhinus falciformis,Carcharhinus falciformis,FAL,807,455,7923.705232,1982,2023,28,TRUE
+11,Carcharhinidae,Carcharhinus galapagensis,Carcharhinus galapagensis,CCG,69,8,39.628,1995,2023,3,TRUE
+12,Carcharhinidae,Carcharhinus longimanus,Carcharhinus longimanus,OCS,615,233,2464.936806,1992,2023,24,TRUE
+13,Carcharhinidae,Prionace glauca,Prionace glauca,BSH,3097,2677,1502350.743677,1954,2023,50,TRUE
+14,Sphyrnidae,Sphyrna lewini,Sphyrna lewini,SPL,430,169,2709.162468,1992,2023,19,TRUE
+15,Sphyrnidae,Sphyrna mokarran,Sphyrna mokarran,SPK,349,78,121.344146,1992,2023,19,TRUE
+16,Sphyrnidae,Sphyrna zygaena,Sphyrna zygaena,SPZ,583,207,2029.249541,1987,2023,28,TRUE
+17,Dasyatidae,Pteroplatytrygon violacea,Pteroplatytrygon violacea,PLS,100,55,123.700936,2013,2023,12,TRUE
+18,Mobulidae,Manta alfredi,Manta alfredi,,0,0,0,,,0,FALSE
+19,Mobulidae,Manta birostris,Manta birostris,RMB,60,22,16.127713,2014,2023,8,TRUE
+20,Mobulidae,Mobula hypostoma,Mobula hypostoma,,0,0,0,,,0,FALSE
+21,Mobulidae,Mobula japonica,Mobula japonica,,0,0,0,,,0,FALSE
+22,Mobulidae,Mobula mobular,Mobula mobular,RMM,54,27,20.027914,2015,2023,6,TRUE
+23,Mobulidae,Mobula tarapacana,Mobula tarapacana,RMT,19,4,3.698,2019,2023,1,TRUE
+24,Mobulidae,Mobula thurstoni,Mobula thurstoni,RMO,12,4,0.787673,2020,2023,1,TRUE

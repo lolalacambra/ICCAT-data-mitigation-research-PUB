@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+# Raw data files
+data/raw/**/*.xlsx
+
+# Generated processed data
+data/processed/**/*.csv
+data/processed/**/*.rds
