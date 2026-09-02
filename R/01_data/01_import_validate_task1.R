@@ -87,11 +87,11 @@ taxon_key <- read_csv(
 )
 
 required_columns <- c(
-  "RecID", "Species", "ScieName", "SpeciesGrp", "YearC",
-  "PartyName", "FlagName", "FleetCode", "Stock", "SampAreaCode",
-  "Area", "SpcGearGrp", "GearGrp", "GearCode", "CatchTypeCode",
-  "FishZoneCode", "QualInfoCode", "Qty_t", "CatchSource"
-)
+  "RecID",  "Species",  "ScieName",  "SpeciesGrp",
+  "YearC",  "PartyStatus",  "PartyName",  "FlagName",
+  "FleetCode",  "Stock",  "SampAreaCode",  "Area",
+  "SpcGearGrp",  "GearGrp",  "GearCode",  "CatchTypeCode",
+  "FishZoneCode",  "QualInfoCode",  "Qty_t",  "CatchSource")
 
 missing_columns <- setdiff(required_columns, names(t1_raw))
 
@@ -126,6 +126,28 @@ duplicated_names <- analysis_key %>%
 
 if (nrow(duplicated_names) > 0) {
   stop("Duplicated Task I scientific names found in the taxon key.")
+}
+
+# Validate Task I species codes against the taxonomic key
+code_check <- t1_raw |>
+  dplyr::transmute(
+    task1_scie_name = as.character(ScieName),
+    excel_code = as.character(Species)
+  ) |>
+  dplyr::distinct() |>
+  dplyr::inner_join(
+    analysis_key,
+    by = "task1_scie_name"
+  ) |>
+  dplyr::filter(
+    !is.na(task1_code),
+    excel_code != task1_code
+  )
+
+if (nrow(code_check) > 0) {
+  stop(
+    "Task I species codes do not match the documented taxonomic key."
+  )
 }
 
 # Summarise the raw records by taxon
